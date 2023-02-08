@@ -1,0 +1,21 @@
+Somme des différences dans le tableau
+
+Javascript
+
+FORMER MOT SUIVANT
+Détails
+Solutions
+Fourchettes (9)
+Discours (112)
+Collecter 
+|
+DESCRIPTION:
+Votre tâche consiste à additionner les différences entre les paires consécutives du tableau dans l'ordre décroissant.
+
+Exemple
+[2, 1, 10]  -->  9
+Par ordre décroissant:[10, 2, 1]
+
+Somme:(10 - 2) + (2 - 1) = 8 + 1 = 9
+
+Si le tableau est vide ou s'il n'a qu'un seul élément, le résultat devrait être 0( Nothingdans Haskell, Nonedans Rust).
