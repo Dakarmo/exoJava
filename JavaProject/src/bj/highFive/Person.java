@@ -8,6 +8,10 @@ public class Person {
     private Adress adress;
     public static int foot; 
     public String metier = "programmeur";
+    public int finger = 20;
+    {
+        System.out.println("instance parentv");
+    }
 
     static { foot =2;
         System.out.println("appelle du bloc static ");
@@ -55,12 +59,13 @@ public class Person {
     //     this.lastName = lastName;
     // }
 
-    // public Person(int age) {
-    //     this.age= age;
-    // }
+    public Person(String firstName, int age) {
+        this.firstName = firstName;
+        this.age= age;
+        System.out.println("super" + this.firstName);
+    }
 
     public Person() {
-        super();
         
 
     }
